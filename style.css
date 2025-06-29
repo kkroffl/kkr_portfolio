@@ -1,0 +1,197 @@
+#Navbar{
+    background-color: #71C9CE;
+}
+
+#Hero{
+    background-color: #E3FDFD;
+}
+
+#Hero h1 {
+     font-family: 'Sacramento', cursive;
+    font-size: 7rem;
+}
+
+#batman{
+    border-radius: 50%;
+    border: 1rem solid #A6E3E9;
+}
+
+.lead{
+    margin-top: 2rem;
+}
+
+.about-section {
+    background-color: #CBF1F5;
+    border-top: 1.5rem solid #A6E3E9;
+    border-bottom: 0.5rem solid #A6E3E9;
+}
+
+.about-heading {
+    color: #71C9CE;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    color: #213448;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
+}
+
+.highlight {
+    color: cadetblue;
+    font-weight: 600;
+}
+
+#Skills{
+    background-color: #CBF1F5;
+    border-top: 0.5rem solid #A6E3E9;
+    border-bottom: 0.5rem solid #A6E3E9;
+}
+
+.skills-heading{
+    color: #71C9CE;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.card{
+    background-color: whitesmoke;
+    color: #213448 !important;
+    margin-left: 2.7rem;
+}
+
+.education-section {
+    background-color: #E3FDFD;
+    border-top: 1rem solid #A6E3E9;
+    border-bottom: 1rem solid #A6E3E9;
+}
+
+.section-title {
+    color: #71C9CE;
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.edu-heading {
+    color: #213448;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.edu-degree {
+    color: #213448;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.edu-institute{
+    font-size: 1.5rem;
+    color: #213448;
+}
+
+.vertical-divider {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: .1px;
+    background-color: #71C9CE;
+    transform: translateX(-50%);
+}
+
+#Projects h2{
+    color: #71C9CE;
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.card5{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.project-heading, .project-text{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #213448;
+    text-align: center;
+}
+
+#Projects {
+    background-color: #E3FDFD;
+    border-top: 1rem solid #A6E3E9;
+    border-bottom: 0.5rem solid #A6E3E9;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+
+@media (max-width: 768px) {
+  #Projects {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .card5 {
+    min-height: 220px; 
+    border-radius: 1rem; 
+  }
+
+  .project-heading,
+  .project-text {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+}
+
+#CertificationsAndAchievements {
+  background-color: #CBF1F5;
+  border-top: 1rem solid #A6E3E9;
+  border-bottom: 0.5rem solid #A6E3E9;
+  padding: 1rem 1rem;
+}
+
+#CertificationsAndAchievements .certi {
+  color: #71C9CE;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.cert-img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .cert-img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  #CertificationsAndAchievements {
+    padding: 2rem 1rem;
+  }
+}
+
+.footer{    
+    width: 100vw;
+    height: 7vh;
+    background-color: #E3FDFD;
+    border-top: 1rem solid #A6E3E9;
+}
+
+.footerkkr{
+    text-align: center;
+}
